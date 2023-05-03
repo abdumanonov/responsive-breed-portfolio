@@ -1,0 +1,549 @@
+/* Main section styles */
+.main-section {
+  padding: 7.5rem 1.87rem;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.main-section-image {
+  text-align: right;
+}
+
+.main-section-welcome {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  color: #797979;
+}
+
+.main-section-introduction {
+  margin-top: 1.25rem;
+  font-size: 3.75rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  color: #05364E;
+}
+
+.main-section-position {
+  color: #05364E;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+
+.main-section-social-nerworks a {
+  color: #8FA1AA;
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+
+.main-section-social-nerworks a:hover i {
+  color: #1C44E4;
+}
+
+.main-section-action {
+  margin-top: 1.87rem;
+}
+/* statistics style */
+
+.statistics {
+  padding-top: 6.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.statistics-item {
+  background-color: #f8faff;
+  text-align: center;
+  padding: 0.32rem 0.625rem;
+  margin-right: 1.25rem;
+  width: 150px;
+}
+
+.statistics-number {
+  font-size: 1.69rem;
+  margin-bottom: 0.32rem;
+  background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-title {
+  font-size: 1rem;
+  color: #797979;
+  font-weight: 300;
+}
+
+/* about me styles */
+
+.about-me {
+  padding: 6.25rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-me > div {
+ flex: 1;
+}
+
+.about-me-image img {
+  width: 90%;
+}
+
+
+.about-me-description {
+  font-size: 0.87rem;
+  font-weight: 300;
+  color: #797979;
+  line-height: 1.69rem;
+}
+
+
+/* Services section styles */
+.service {
+  padding-top: 6.25rem;
+}
+
+.services {
+  display: flex;
+  flex: row wrap;
+  justify-content: space-between;
+}
+
+.service-card {
+  padding: 3.75rem 1.87rem;
+  background-color: #f8faff;
+  margin-right: 3%;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 1s ease 0s;
+}
+
+.service-card-title {
+  color: #053640;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+
+.service-card-description {
+  font-size: 0.87rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  color: #c75757;
+}
+
+.service-card-link {
+  font-size: 0.87rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #053640;
+  text-decoration: none;
+}
+
+.service-card:hover {
+  background-color: #5f30ff;
+  color: goldenrod;
+
+}
+
+.service-card:hover .service-card-title,
+.service-card:hover .about-me-description,
+.service-card:hover .service-card-link {
+  color: gold;
+}
+
+/* clients section */
+
+.clients {
+  padding-top: 6.25rem;
+}
+
+.client-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-item > div {
+  flex: 1;
+  padding: 0 1.25rem;
+}
+
+.client-item-image img {
+  width: 100%;
+}
+
+.client-item-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.client-item-position {
+  font-size: 0.87rem;
+  font-weight: 300;
+  color: #053640;
+}
+
+.client-item-review {
+  font-size: 0.87rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  color: #5b6d75;
+}
+
+.client-item-rate {
+  color: #ffd805;
+}
+
+.client-item-rate .disabled {
+  color: #5b6d75;
+}
+
+/* Portfolio section styles*/
+.portfolio {
+  padding: 6.25rem 0;
+}
+
+.portfolio-filters {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 3.125rem;
+}
+
+.portfolio-filters li {
+  display: inline-block;
+  margin-right: 2.5rem;
+  font-size: 0.81rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-filters li:hover,
+.portfolio-filters li.active {
+  color: #1345e6;
+}
+
+
+.portfolio-items {
+  position: relative;
+  margin-top: 3.125rem;
+}
+
+.portfolio-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 0.625rem;
+}
+
+.portfolio-item-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.portfolio-item-3 {
+  position: absolute;
+  top: 370px;
+  right: 0;
+}
+
+.portfolio-item-image {
+  width: 100%;
+}
+
+.portfolio-item-image-3 {
+  height: 470px;
+}
+
+
+.portfolio-item-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* visibility: hidden; */
+  z-index: 1;
+  transition: all 0.6s ease 0s;
+}
+
+.portfolio-item-info {
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: white;
+  /* visibility: hidden; */
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.6s ease 0s;
+}
+
+.portfolio-item-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+  background-color: rgba(98, 57, 192, 0.9);
+  visibility: visible;
+  top: 20px;
+  left: 20px;
+}
+
+.portfolio-item:hover .portfolio-item-info {
+  visibility: visible;
+  bottom: 24px;
+  left: 60px;
+  opacity: 1;
+}
+
+/* Blog section styles */
+.blog {
+  padding-top: 6.25rem;
+}
+
+.blog-items {
+  margin-top: 3.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-item {
+  overflow: hidden;
+  margin-right: 3%;
+  box-sizing: border-box;
+}
+
+.blog-item:hover {
+  box-shadow: 0px 10px 20px rgb(5 54 77/10);
+}
+
+.blog-item:hover .blog-item-info {
+  background-color: white;
+}
+.blog-item-image {
+  overflow: hidden;
+}
+
+.blog-item-image img {
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.4s ease 0s;
+}
+
+.blog-item:hover .blog-item-image img {
+  transform: scale(1.1);
+}
+
+.blog-item-info {
+  background-color: #f8faff;
+  padding: 1.87rem;
+  color: #797979;
+}
+
+.blog-item-main-info span {
+  font-size: 0.87rem;
+  margin-right: 1.87rem;
+  font-weight: lighter;
+}
+
+.blog-item-info i {
+  margin-right: 0.31rem;
+}
+
+.blog-item-title {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.94rem;
+  color: #05364d;
+  font-weight: 700;
+}
+
+.blog-item-description {
+  line-height: 1.68rem;
+  font-weight: lighter;
+  font-size: 0.94rem;
+}
+
+.blog-item-learn-more {
+  font-size: 0.81rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+  cursor: pointer;
+}
+
+.blog-item-learn-more:hover {
+  color: #ed239f;
+}
+
+/* Partners section style */
+
+.partners {
+  padding-top: 4.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width:991px) {
+  .main-section-image {
+    display: none;
+  }
+
+  .main-section > div {
+    width: 100%;
+  }
+
+  .statistics {
+    padding-top: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+   /* About me section */
+   .about-me {
+    padding: 1.5rem 0;
+  }
+
+  .about-me > div {
+    width: 100%;
+  }
+
+  .about-me-image {
+    display: none;
+  }
+
+  .services {
+    padding: 1.5rem 0;
+    flex-wrap: wrap;
+    }
+
+  .service-card {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+
+   /* Clients */
+   .clients {
+    padding: 1.5rem 0;
+  }
+
+  .client-item {
+    flex-direction: column;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+
+   /* Blog section */
+ .blog {
+  padding: 1.5rem 0;
+ }
+
+ .blog-items {
+  flex-wrap: wrap;
+ }
+
+ .blog-item {
+  flex-basis: 45%;
+  margin-right: 0;
+  margin-bottom: 20px;
+ }
+
+  /* partners */
+ .partners {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  }
+
+ .partner img {
+  padding: 0;
+  height: 150px;
+ }
+}
+
+@media only screen and (max-width:767px) {
+  .main-section {
+    padding: 1.5rem;
+    margin-top: 7.5rem;
+  }
+
+  .main-section-image {
+    display: none;
+  }
+
+  .main-button {
+    display: none;
+  }
+
+  .main-section-introduction {
+    font-size: 3rem;
+  }
+
+
+  /* statistics section */
+  .statistics-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  /* services section */
+  .service-card {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+  /* portfolio section */
+  .portfolio {
+    padding: 1.5rem 0;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    float: none;
+ }
+
+ .portfolio-item-2, .portfolio-item-3 {
+  position: static;
+ }
+
+ .blog-items {
+  flex-direction: column;
+ }
+
+ .blog-item {
+  /* flex-basis: 80%; */
+  margin-right: 0;
+  margin-bottom: 28px;
+ }
+
+ .partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+}
